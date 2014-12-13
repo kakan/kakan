@@ -1,0 +1,22 @@
+{
+    "name": "kakan/flashmessage",    
+    "type": "library",
+    "description": "Class purpose is to output feedback to the user.",
+	"keywords": ["status", "session", "message", "error", "success", "notice", "warning"],
+    "homepage": "https://github.com/kakan",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Gerdin",
+            "email": "Sebastian.gerdin@gmail.com",
+            "homepage": "https://github.com/kakan",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "anaxMVC\\": "src/" }
+    }
+}

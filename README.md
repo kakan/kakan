@@ -30,11 +30,7 @@ After you have started a session you need to add the following code to your fron
 ---
 
 $di->set('flash', function() { 
-
-
     $flash = new \Anax\CFlashMessage\CFlashMessage(); 
-    
-    
     return $flash; 
 }); 
 

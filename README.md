@@ -30,7 +30,11 @@ After you have started a session you need to add the following code to your fron
 ---
 
 $di->set('flash', function() { 
+
+
     $flash = new \Anax\CFlashMessage\CFlashMessage(); 
+    
+    
     return $flash; 
 }); 
 
@@ -42,7 +46,11 @@ You now need to add the following code to show the message you would like displa
 ---
 
 $app->theme->addStylesheet('css/FlashMessage.css');  
+
+
 $app->flash->newMessage('You have sucessfully installed flashMessage Module', 'Success');
+
+
 $app->views->add('me/page', array('content' => $app->flash->showMessage()));
 
 ---

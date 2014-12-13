@@ -13,6 +13,9 @@ Install using composer and packagist: "kakan/flashmessage": "dev-master"
 Note that you might have to put the stylesheet, Flashmessage.css into the correct folder by yourself.
 Correct folders are following
 Flashmessage.css = anaxMVC/webroot/css/
+
+
+
 CFlashMessage.php = anaxMVC/src/CFlashMessage/
 
 

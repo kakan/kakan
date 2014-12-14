@@ -27,4 +27,4 @@ class CFlashMessageTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($res, $exp, "deleteMessage failure.");
     }
 }
-?>
+?> 

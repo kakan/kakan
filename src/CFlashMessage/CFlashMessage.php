@@ -2,7 +2,6 @@
 namespace Anax\CFlashMessage;
 class CFlashMessage
 {
-	use \Anax\DI\TInjectable;
 
 	public function __construct()
 	{

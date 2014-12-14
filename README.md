@@ -1,3 +1,8 @@
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kakan/kakan/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kakan/kakan/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/kakan/kakan/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kakan/kakan/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/kakan/kakan/badges/build.png?b=master)](https://scrutinizer-ci.com/g/kakan/kakan/build-status/master)
+
+
 Flashmessage module for ANAXMVC
 =====
 FlashMessage is a tool built for anaxMVC that helps you show flash messages. This module requires you to have anaxMVC installed
